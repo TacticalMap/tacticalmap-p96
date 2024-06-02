@@ -1,0 +1,51 @@
+{
+  "name": "tacticalmap-p96",
+  "id": "tacticalmap-p96",
+  "title": "Underground Ruins",
+  "description": "Ancient ruins underground and empty natural caves.",
+  "author": "Tactical Master",
+  "authors": [],
+  "url": "https://www.patreon.com/tacticalmap",
+  "flags": {},
+  "version": "1.0",
+  "minimumCoreVersion": "0.7.5",
+  "compatibleCoreVersion": "11",
+  "scripts": [],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
+  "packs": [
+    {
+      "name": "underground-ruins",
+      "label": "Underground Ruins",
+      "path": "packs/underground-ruins.db",
+      "type": "Scene",
+	  "entity": "Scene",
+      "module": "underground-ruins",
+      "private": false
+    }
+  ],
+  "system": [],
+  "dependencies": [],
+  "socket": false,
+  "relationships": {
+    "requires": [
+      {
+        "id": "tagger",
+        "manifest": "https://github.com/fantasycalendar/FoundryVTT-Tagger/releases/latest/download/module.json",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "monks-active-tiles",
+        "manifest": "https://github.com/ironmonk88/monks-active-tiles/releases/latest/download/module.json",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "manifest": "https://raw.githubusercontent.com/TacticalMap/tacticalmap-p96/main/module.json",
+  "download": "https://github.com/TacticalMap/tacticalmap-p96/archive/refs/heads/main.zip",
+  "protected": false,
+  "coreTranslation": false
+}
